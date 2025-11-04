@@ -1,4 +1,4 @@
-🏨 Hotel Management System
+**`**🏨 Hotel Management System**`**
 
 A Hotel Management System built using React (Vite) and CSS.
 This project helps hotel staff manage rooms, bookings, and dashboard analytics efficiently with a clean and responsive interface.
