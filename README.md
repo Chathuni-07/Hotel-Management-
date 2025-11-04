@@ -3,39 +3,66 @@
 A Hotel Management System built using React (Vite) and CSS.
 This project helps hotel staff manage rooms, bookings, and dashboard analytics efficiently with a clean and responsive interface.
 
-         📋 Features
 
-           ✅ Dashboard
+## ✨ Features of Hotel Management System
 
-                  Displays hotel statistics and analytics
+### 🏠 **Dashboard**
 
-                   Shows booking trends and room availability summary
+* Displays key hotel statistics (total rooms, bookings, and revenue overview)
+* Visual booking trends and room occupancy rates
+* Quick access to main sections (Rooms, Bookings)
 
-          ✅ Room Management
+---
 
-              Add, edit, delete, and view room details
+### 🛏️ **Room Management**
 
-              Each room has type, price, and status (Available / Booked / Maintenance)
+* Add, view, update, and delete room details
+* Manage room types (Deluxe, Suite, Standard)
+* Track room prices and statuses (Available, Booked, Maintenance)
+* Automatically updates room availability in real-time
 
-        ✅ Booking Management
+---
 
-            View and manage all bookings
+### 📅 **Booking Management**
 
-            Booking details include guest name, room, date, and booking status
+* View all booking details (guest name, room number, date, status)
+* Manage booking statuses: **Confirmed**, **Pending**, **Cancelled**
+* Add or remove bookings easily
+* Organized and filterable booking table
 
-            Supports statuses: Confirmed / Pending / Cancelled
+---
 
-       ✅ Top Navigation Bar
+### 🧭 **Navigation**
 
-           Easy navigation between Dashboard, Rooms, and Bookings pages
+* Top navigation bar for switching between Dashboard, Rooms, and Bookings
+* Clean and responsive layout
 
-       ✅ Responsive Design
+---
 
-          Works smoothly on both desktop and mobile devices
+### 🎨 **User Interface**
 
-       ✅ Background Image
+* Responsive design for desktop and mobile
+* Modern and clean look using **React + Vite + CSS**
+* Beautiful hotel-themed **background image** applied to all pages
+* Easy-to-read fonts and consistent layout
 
-           A stylish hotel-themed background added to all pages
+---
+
+### ⚙️ **Data & Structure**
+
+* Uses **dummy data (25+ records)** for rooms and bookings
+* Easy to replace with real backend or database
+* Modular and component-based code structure
+
+---
+
+### 🚀 **Performance**
+
+* Fast loading with **Vite**
+* Optimized components and minimal dependencies
+
+---
+
 
 | Category                 | Technologies            |
 | ------------------------ | ----------------------- |
@@ -46,23 +73,9 @@ This project helps hotel staff manage rooms, bookings, and dashboard analytics e
 | **Charts (optional)**    | Recharts                |
 
 
-hotel-management-system/
-│
-├── public/
-├── src/
-│   ├── assets/               # Background image and other static assets
-│   ├── components/           # Navbar and reusable UI components
-│   ├── pages/
-│   │   ├── Dashboard.jsx     # Dashboard page
-│   │   ├── Bookings.jsx      # Booking management page
-│   │   ├── Rooms.jsx         # Room management page
-│   ├── data/
-│   │   ├── roomsData.js      # room data 
-│   │   ├── bookingsData.js   # booking data 
-│   ├── App.jsx               # Main app with routing
-│   ├── main.jsx              # React entry file
-│   └── index.css             # Global styles (background, layout)
-│
-└── package.json
+
+
+
+
 
 
